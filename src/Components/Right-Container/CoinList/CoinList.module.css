@@ -1,0 +1,17 @@
+ul {
+  width: 100%;
+  height: 88%;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 25%;
+  row-gap: 5%;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  display: inline-block;
+}

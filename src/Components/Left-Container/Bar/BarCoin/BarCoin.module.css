@@ -1,0 +1,15 @@
+div.random-coin {
+  user-select: none;
+  height: 80%;
+  width: 50px;
+}
+
+img.icon {
+  height: 50px;
+  display: block;
+}
+
+span.price-change {
+  font-family: Apple Chancery, cursive;
+  color: #fff;
+}

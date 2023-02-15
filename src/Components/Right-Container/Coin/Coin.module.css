@@ -1,0 +1,48 @@
+.coin {
+  display: flex;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-family: Comic Sans MS;
+
+  --b: 0.3vh;
+  --c: #fff;
+  --w: 3vh;
+  border: var(--b) solid #0000;
+  --_g: #0000 90deg, var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+
+  background: conic-gradient(
+        from 90deg at top var(--b) left var(--b),
+        var(--_g)
+      )
+      0 0 / var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g))
+      100% 100% / var(--_p);
+}
+
+.coin-info {
+  display: inline-block;
+  width: 100%;
+  height: 10vh;
+}
+
+img.icons {
+  height: 8vh;
+  padding: 2vh;
+}
+
+p.row {
+  display: block;
+  width: 80%;
+  height: 25%;
+  margin-top: 3%;
+  color: #fff;
+  font-size: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

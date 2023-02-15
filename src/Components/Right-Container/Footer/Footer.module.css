@@ -1,0 +1,9 @@
+footer {
+  background-color: #000;
+  border: solid 0.3vh #fff;
+  height: 4vh;
+  padding: 1vh;
+  color: #fff;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
